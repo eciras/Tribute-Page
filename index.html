@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Static Template</title>
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Recursive:wght@300;400;500;600;700;800;900&family=Zen+Old+Mincho:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      body {
+        font-family: "Zen Old Mincho", serif;
+        font-size: 1.7rem;
+        background-color: #c9c9c9;
+        margin: 0px;
+        padding: 0px;
+      }
+
+      .container {
+        background-image: linear-gradient(rgb(255, 255, 255), #c9c9c9);
+        margin-top: -4rem;
+        text-align: center;
+        font-size: 2.5rem;
+      }
+      .description {
+        text-align: center;
+        margin-top: -3rem;
+        font-size: 1.2rem;
+        color: #555454;
+      }
+      #image {
+        max-width: 100%;
+        display: block;
+        height: auto;
+        margin: 0 auto;
+        border-radius: 5px;
+      }
+
+      figcaption {
+        text-align: center;
+        font-size: 1.2rem;
+        color: #555454;
+      }
+
+      .about {
+        max-width: 2000px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 1.5;
+      }
+
+      .headline {
+        display: block;
+        text-align: center;
+        margin-top: 10rem;
+        font-size: 2.7rem;
+      }
+
+      .life {
+        max-width: 750px;
+        margin: 0 auto 50px auto;
+        text-align: left;
+        line-height: 1.5;
+      }
+
+      @media (max-width: 550px) {
+        body {
+          font-size: 1rem;
+        }
+      }
+
+      .first-link {
+        max-width: 750px;
+        margin: 10rem auto 0px auto;
+        text-align: left;
+      }
+      .second-link {
+        max-width: 750px;
+        margin: 0rem auto 100px auto;
+        text-align: left;
+      }
+      .links {
+        bottom: 0;
+        height: 150px;
+        background-image: linear-gradient(#c9c9c9, rgb(255, 255, 255));
+      }
+    </style>
+  </head>
+  <body>
+    <main id="main">
+      <div class="container">
+        <h1 id="title">
+          Takashi Amano
+        </h1>
+
+        <p class="description">
+          Professional photographer, aquarist, designer, and professional track
+          cyclist.
+        </p>
+      </div>
+      <figure id="img-div">
+        <img
+          id="image"
+          src="https://images.squarespace-cdn.com/content/v1/5494a8f4e4b0f45669953a74/1420068222099-KDBCYHQDCIAETIL6Y6XU/Takashi-Amano-ADA?format=1000w"
+          alt="Takashi Amano"
+          style
+        />
+        <figcaption id="img-caption">
+          <q>To know Mother Nature, is to love her smallest creations </q>
+          - Takashi Amano
+        </figcaption>
+      </figure>
+      <section class="about">
+        <p>
+          Born on 18th July 1954 in Niigata, Japan, Takashi Amano, the creator
+          of the Nature Aquarium, is best known for his photography and
+          aquascaping. Amano first found fame as a professional cyclist.
+        </p>
+        <p>
+          His love of aquariums and planted tanks started in his teenage years
+          and a considerable amount of his cycling earnings were spent on his
+          joint hobbies of aquascaping and photography.
+        </p>
+        <p>
+          In 1977, Amano made a breakthrough in the world of aquarium plant
+          keeping: carbon dioxide injection. He experimented with carbonated
+          water after noticing, while out drinking in a bar, bubbles in
+          carbonated drinks. When he added carbonated water to his tanks, he
+          found that the bubbles appeared here too. What had Amano discovered?
+          The reason that plants grew better in older tanks was that the set-ups
+          were producing carbon dioxide, which the plants required for the
+          photosynthesis process! Aquarium planting would never be the same
+          again; his breakthrough lead to the injection of carbon dioxide into
+          planted tanks. Following his discovery, Takashi Amano spent the next
+          15 years refining his aquascaping. He concentrated on his layout
+          techniques and his other great love, photography.
+        </p>
+        <p>
+          Takashi Amano’s first major win on the photographic scene was in 1991
+          when he won the JPS Photography Contest. His image was selected for
+          public exhibition. In 1992, he achieved success in the Fujifilm Nature
+          Photo Contest with his piece ‘Oniodori’, which depicted a submersed
+          image of an Asian Wrasse.
+        </p>
+      </section>
+      <section id="tribute-info">
+        <h3 class="headline">
+          <strong>Here's a time line of Takasi Amano life:</strong>
+        </h3>
+        <div class="life">
+          <ul>
+            <li>
+              <strong>1971</strong>
+              - He started to attempt his first aquarium aquascape, as well as
+              photographing the tank itself.
+            </li>
+            <li>
+              <strong>1974</strong> - He began his career as a professional
+              cyclist.
+            </li>
+            <li>
+              <strong>1977</strong> - He started experiment that would soon lead
+              to the discovery of Carbon Dioxide injections in planted tanks.
+            </li>
+            <li>
+              <strong>1980</strong> - He soon learned that the freshwater shrimp
+              known as Caridina multidentata could eat the largest amount of
+              algae and later was renamed to the Amano Shrimp.
+            </li>
+            <li>
+              <strong>1982</strong> - He founded the company Aqua Design Amano
+              (ADA)
+            </li>
+            <li><strong>1990</strong> - His cycling career ended.</li>
+            <li>
+              <strong>1992</strong> - His photographic book, Nature Aquarium,
+              and Mizu Shizen eno kaiki, were interpreted into seven languages.
+            </li>
+
+            <li>
+              <strong>1994</strong> - His most well-known series of the Nature
+              Aquarium World was published.
+            </li>
+
+            <li>
+              <strong>2015</strong> - Lisbon Nature Aquarium, Takashi’s Final
+              Masterpiece
+            </li>
+            <li><strong>2015</strong> - dies at the age of 61.</li>
+          </ul>
+        </div>
+        <div class="footer-logo">
+          <footer class="links">
+            <h6 class="first-link">
+              More info about Takashi Amano on
+              <a
+                id="tribute-link"
+                href="https://en.wikipedia.org/wiki/Takashi_Amano"
+                target="_blank"
+              >
+                Wikipedia
+              </a>
+            </h6>
+            <h6 class="second-link">
+              Takasi Amano
+              <a
+                id="tribute-link2"
+                href="https://www.oceanario.pt/en/exhibitions/forests-underwater/"
+                target="_blank"
+                >Lisbon aquarium.
+              </a>
+            </h6>
+          </footer>
+        </div>
+      </section>
+    </main>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+  </body>
+</html>
